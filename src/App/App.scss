@@ -1,0 +1,29 @@
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  color: aliceblue;
+}
+
+button {
+ background: none;
+ border: 2px solid white;
+ border-radius: 4px;
+ color: white;
+ text-align: center;
+ padding: 6px 12px;
+ font-weight: bold;
+ font-size: .8em;
+
+
+ &:hover {
+   background-color: magenta;
+ }
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+  grid-gap: 10px;
+}
+
